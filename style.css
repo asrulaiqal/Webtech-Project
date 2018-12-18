@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav
+{
+  height: 30px;
+  background: #fff;
+}
+.navbar-style
+{
+  background: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.content {
+  padding: 0px;
+}
+.sticky {
+  z-index: 99999;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.logo
+{
+  height: 50px;
+  padding: 2px 10px;
+}
+.icon-bar
+{
+  background: lightblue;
+}
+li a
+{
+  color: #333;
+}
+.content h1
+{
+  margin: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.home
+{
+  padding: 120px;
+  height: 450px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background:url("krabi-islands.jpg.jpg");
+}
+a.btn
+{
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+a.btn:hover
+{
+  background: lightblue;
+  border: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+a.btn-first
+{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-second, .btn-third
+{
+  background: lightblue;
+  color: #333;
+}
+.service .container
+{
+  padding-left: 250px;
+  text-align: center;
+}
+.advise
+{
+  color: #fff;
+  padding: 120px;
+  height: 450px;
+  font-size: 20px;
+  text-align: center;
+  background:url("plane.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.advise h4
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+.advise h5
+{
+  font-size: 30px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column p
+{
+  padding: 10px;
+text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.aboutus
+{
+  text-align: center;
+}
+.aboutus img
+{
+  margin: 30px;
+}
+.team
+{
+  text-align: center;
+}
+.team .container
+{
+  padding-left: 240px;
+  object-fit: none;
+}
